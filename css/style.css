@@ -1699,7 +1699,7 @@ input:focus {
   top: 0px;
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: hidden;
   background: #000000;
   z-index: 10;
   -webkit-box-sizing: border-box;
@@ -1763,6 +1763,12 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: calc(100% - 100px);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.modal_menu_nav::-webkit-scrollbar {
+  display: none;
 }
 .modal_menu_nav_item {
   margin-top: 22px;
