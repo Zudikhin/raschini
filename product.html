@@ -570,133 +570,241 @@
       </div>
     </header>
 
-    <section class="shop_banner" style="background: url(img/main/main_2.jpeg); background-size: cover; background-position: 50%;">
-      <div class="shop_banner_title">
-        <h1>ЗАГОЛОВОК КАТЕГОРИИ</h1>
-        <p>параграф с описанием категории</p>
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="breadcrumbs_block">
+          <a href="#">Главная <i class="fa-solid fa-angle-right"></i></a>
+          <a href="#">Категория 1 уровня <i class="fa-solid fa-angle-right"></i></a>
+          <a href="#">Категория 2 уровня</a>
+        </div>
+      </div>
+    </div>
+ 
+    <section class="product">
+      <div class="container">
+        <div class="product_block">
+          <div class="product_block_left">
+            <div class="product_block_left_slider">
+              <div class="product_block_left_slider_item">
+                <img class="product_block_left_slider_item_expand" src="img/product/expand.svg" alt="">
+                <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              </div>
+              <div class="product_block_left_slider_item">
+                <img class="product_block_left_slider_item_expand" src="img/product/expand.svg" alt="">
+                <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              </div>
+              <div class="product_block_left_slider_item">
+                <img class="product_block_left_slider_item_expand" src="img/product/expand.svg" alt="">
+                <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              </div>
+              <div class="product_block_left_slider_item">
+                <img class="product_block_left_slider_item_expand" src="img/product/expand.svg" alt="">
+                <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              </div>
+            </div>
+
+            <div class="product_block_left_btns">
+              <div class="product_block_left_btns_prev">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="product_block_left_btns_next">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+
+          </div>
+          <div class="product_block_right">
+            <div class="product_block_right_top">
+              <h3>Наименование товара</h3>
+              <p class="product_block_right_top_price">00 000 Р</p>
+            </div>
+            <div class="product_block_right_color">
+              <p>Цвет: наименование цвета</p>
+            </div>
+            <div class="product_block_right_size">
+              <p>Выберите размер:</p>
+              <fieldset id="group">
+                <label>
+                  <input type="radio" value="size1" name="group">
+                  <div class="check">00</div>
+                </label>
+                <label>
+                  <input type="radio" value="size2" name="group">
+                  <div class="check">00</div>
+                </label>
+                <label>
+                  <input type="radio" value="size3" name="group">
+                  <div class="check">00</div>
+                </label>
+                <label class="empty">
+                  <input type="radio" value="size4" name="group">
+                  <div class="check">00</div>
+                </label>
+              </fieldset>
+            </div>
+            <div class="product_block_right_guide">
+              <p>Гид по размерам</p>
+            </div>
+            <div class="product_block_right_description">
+              <div class="product_block_right_description_top">
+                <span>описание</span>
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="product_block_right_description_content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quisquam ad fugit ex rerum blanditiis non velit? Natus perspiciatis quae vero laudantium tenetur nesciunt quasi ipsa ad repellat ex, enim alias, impedit, ut est voluptatum doloribus odit. Assumenda fuga quod dolore asperiores? Soluta distinctio sint recusandae quod praesentium officia! Reiciendis, iusto a. Eaque corporis exercitationem quasi possimus similique magni pariatur perferendis placeat fugiat aperiam, consequuntur dolorem corrupti libero iusto optio qui obcaecati dignissimos tempore est molestiae sunt? Rerum aliquid iure dicta unde corrupti fugiat, commodi numquam quos quas facilis officia? Dolorum, a blanditiis. Quam aspernatur unde ipsa neque tempora alias?</p>
+              </div>
+            </div>
+            <div class="product_block_right_details">
+              <div class="product_block_right_details_top">
+                <span>Детали и состав</span>
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="product_block_right_details_content">
+                <ul>
+                  <li>
+                    <p class="name">Имя</p>
+                    <p class="desc">Значение</p>
+                  </li>
+                  <li>
+                    <p class="name">Имя</p>
+                    <p class="desc">Значение</p>
+                  </li>
+                  <li>
+                    <p class="name">Имя</p>
+                    <p class="desc">Значение</p>
+                  </li>
+                  <li>
+                    <p class="name">Имя</p>
+                    <p class="desc">Значение</p>
+                  </li>
+                  <li>
+                    <p class="name">Имя</p>
+                    <p class="desc">Значение</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product_block_right_btns">
+              <a href="#" class="product_block_right_btns_favorite">
+                <img src="img/product/favorite.svg" alt="">
+              </a>
+              <a href="#" class="product_block_right_btns_to_cart">
+                <span>Добавить в корзину</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="shop">
+    <section class="upsell">
       <div class="container">
-        <div class="shop_filter">
-          <div class="shop_filter_filter">
-            <span>ФИЛЬТРЫ</span>
-            <img src="img/shop/arrow.svg" alt="">
+        <h3>Апсейл</h3>
+        <div class="upsell_block">
+          <div class="upsell_block_prev">
+            <i class="fa-solid fa-angle-left"></i>
           </div>
-
-          <div class="shop_filter_sort">
-            <span>СОРТИровка</span>
-            <img src="img/shop/arrow.svg" alt="">
+          <div class="upsell_block_slider">
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="upsell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
           </div>
-
+          <div class="upsell_block_next">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
         </div>
-        <div class="shop_list">
+      </div>
+    </section>
 
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
+    <section class="crossell">
+      <div class="container">
+        <h3>кросс-сейл</h3>
+        <div class="crossell_block">
+          <div class="crossell_block_prev">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="crossell_block_slider">
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
               <h4>Наименование</h4>
-              <p>100 000 Р</p>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
+            </a>
+            <a href="#" class="crossell_block_slider_item">
+              <img class="product_block_left_slider_item_main" src="img/home_cats/1.jpeg" alt="">
+              <h4>Наименование</h4>
+              <p>00 000 Р</p>
             </a>
           </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
+          <div class="crossell_block_next">
+            <i class="fa-solid fa-angle-right"></i>
           </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
-          </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
-          </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
-          </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
-          </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
-          </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
-          </div>
-
-          <div class="shop_list_item">
-            <a href="#" class="shop_list_item_favorite">
-              <img src="img/header/favorite.svg" alt="">
-            </a>
-            <a href="#" class="shop_list_item_text">
-              <img class="shop_list_item_img" src="img/main/main_2.jpg" alt="">
-              <h4>Наименование</h4>
-              <p>100 000 Р</p>
-            </a>
-          </div>
-
-
-        </div>
-        <div class="shop_load">
-          <p>00 товаров из 00</p>
-          <button>Загрузить еще</button>
         </div>
       </div>
     </section>
@@ -1200,15 +1308,312 @@
         <input type="submit" value="НАЙТИ">
       </form>
     </div>
-<!-- 
-    <div class="modal_cookie">
-      <button class="modal_cookie_close">
-        <img src="img/close_black.svg" alt="">
-      </button>
-      <h3>Уведомление о Cookies</h3>
-      <p>Текст уведомления об использовании Cookies</p>
-      <button class="modal_cookie_accept">ПРИНЯТЬ ВСЕ</button>
-    </div> -->
+
+    <div class="modal_guide">
+
+      <div class="modal_guide_close">
+        <img src="img/guide/close.svg" alt="">
+      </div>
+
+      <div class="modal_guide_item">
+        <h4>мужская одежда</h4>
+        <div class="modal_guide_item_top">
+          <span>международный</span>
+          <span>IT</span>
+          <span>RUS</span>
+        </div>
+        <div class="modal_guide_item_list">
+          <div class="modal_guide_item_list_wrap">
+            <span>XS</span>
+            <span>42</span>
+            <span>44</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>S</span>
+            <span>44</span>
+            <span>46</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>M</span>
+            <span>46</span>
+            <span>48</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>L</span>
+            <span>48</span>
+            <span>50/52</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>XL</span>
+            <span>50</span>
+            <span>54</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>2XL</span>
+            <span>52/54</span>
+            <span>56</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>3XL</span>
+            <span>56/58</span>
+            <span>58</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>4XL</span>
+            <span>58/60</span>
+            <span>60/62</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal_guide_item">
+        <h4>мужские сорочки</h4>
+        <div class="modal_guide_item_top">
+          <span>размер ворота (см)</span>
+          <span>IT</span>
+          <span>RUS</span>
+        </div>
+        <div class="modal_guide_item_list">
+          <div class="modal_guide_item_list_wrap">
+            <span>39</span>
+            <span>44</span>
+            <span>46</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>40</span>
+            <span>46</span>
+            <span>48</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>41</span>
+            <span>48</span>
+            <span>50/52</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>42</span>
+            <span>50</span>
+            <span>54</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>43</span>
+            <span>52/54</span>
+            <span>56</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>44</span>
+            <span>56</span>
+            <span>56/58</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>45</span>
+            <span>56/58</span>
+            <span>58</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>46</span>
+            <span>58</span>
+            <span>60</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal_guide_item">
+        <h4>мужские джинсы</h4>
+        <div class="modal_guide_item_top">
+          <span>международный</span>
+          <span>IT</span>
+          <span>RUS</span>
+        </div>
+        <div class="modal_guide_item_list">
+          <div class="modal_guide_item_list_wrap">
+            <span>30</span>
+            <span>44/46</span>
+            <span>46/48</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>31</span>
+            <span>48/50</span>
+            <span>50/52</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>32</span>
+            <span>50</span>
+            <span>52</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>33</span>
+            <span>50/52</span>
+            <span>52/54</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>34</span>
+            <span>52</span>
+            <span>54</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>35</span>
+            <span>52/54</span>
+            <span>54/56</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>36</span>
+            <span>54</span>
+            <span>56</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>37</span>
+            <span>54/56</span>
+            <span>56/58</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>38</span>
+            <span>56</span>
+            <span>58</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal_guide_item">
+        <h4>мужская обувь</h4>
+        <div class="modal_guide_item_top">
+          <span>великобритания</span>
+          <span>IT</span>
+          <span>RUS</span>
+        </div>
+        <div class="modal_guide_item_list">
+          <div class="modal_guide_item_list_wrap">
+            <span>5</span>
+            <span>39</span>
+            <span>39</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>5,5</span>
+            <span>39,5</span>
+            <span>39,5</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>6</span>
+            <span>40</span>
+            <span>40</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>6,5</span>
+            <span>40,5</span>
+            <span>40,5</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>7</span>
+            <span>41</span>
+            <span>41</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>7,5</span>
+            <span>41,5</span>
+            <span>41,5</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>8</span>
+            <span>42</span>
+            <span>42</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>8,5</span>
+            <span>42,5</span>
+            <span>42,5</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>9</span>
+            <span>43</span>
+            <span>43</span>
+          </div>
+
+          <div class="modal_guide_item_list_wrap">
+            <span>9,5</span>
+            <span>43,5</span>
+            <span>43,5</span>
+          </div>
+
+          <div class="modal_guide_item_list_wrap">
+            <span>10</span>
+            <span>44</span>
+            <span>44</span>
+          </div>
+
+          <div class="modal_guide_item_list_wrap">
+            <span>10,5</span>
+            <span>44,5</span>
+            <span>44,5</span>
+          </div>
+
+          <div class="modal_guide_item_list_wrap">
+            <span>11</span>
+            <span>45</span>
+            <span>45</span>
+          </div>
+
+          <div class="modal_guide_item_list_wrap">
+            <span>11,5</span>
+            <span>45,5</span>
+            <span>45,5</span>
+          </div>
+
+          <div class="modal_guide_item_list_wrap">
+            <span>12</span>
+            <span>46</span>
+            <span>46</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="modal_guide_item">
+        <h4>женская одежда</h4>
+        <div class="modal_guide_item_top">
+          <span>международный</span>
+          <span>IT</span>
+          <span>RUS</span>
+        </div>
+        <div class="modal_guide_item_list">
+          <div class="modal_guide_item_list_wrap">
+            <span>xs</span>
+            <span>36</span>
+            <span>40</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>s</span>
+            <span>38/40</span>
+            <span>42</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>m</span>
+            <span>42/44</span>
+            <span>44/46</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>l</span>
+            <span>46/48</span>
+            <span>48/50</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>xl</span>
+            <span>50</span>
+            <span>52</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>2xl</span>
+            <span>52</span>
+            <span>54/56</span>
+          </div>
+          <div class="modal_guide_item_list_wrap">
+            <span>3xl</span>
+            <span>54/56</span>
+            <span>56/58</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="back_modal"></div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
